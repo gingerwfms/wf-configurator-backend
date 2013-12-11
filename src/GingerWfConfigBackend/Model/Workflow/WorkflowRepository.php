@@ -8,8 +8,8 @@
  */
 namespace GingerWfConfigBackend\Model\Workflow;
 
-use Ginger\Core\Repository\AbstractCrudRepository;
-use Ginger\Core\Repository\Adapter\CrudRepositoryAdapterInterface;
+use GingerCore\Repository\AbstractCrudRepository;
+use GingerCore\Repository\Adapter\CrudRepositoryAdapterInterface;
 /**
  *  WorkflowRepository
  * 

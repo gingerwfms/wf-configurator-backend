@@ -8,7 +8,7 @@
  */
 namespace GingerWfConfigBackend\Model\Workflow;
 
-use Ginger\Core\Repository\Resource\ResourceType;
+use GingerCore\Repository\Resource\ResourceType;
 /**
  *  WorkflowType
  * 

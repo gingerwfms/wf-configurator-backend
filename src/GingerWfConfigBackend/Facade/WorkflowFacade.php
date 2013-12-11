@@ -8,8 +8,8 @@
  */
 namespace GingerWfConfigBackend\Facade;
 
-use GngerWfConfigBackend\Model\Workflow\WorkflowRepository;
-use Ginger\Core\Repository\Resource;
+use GingerWfConfigBackend\Model\Workflow\WorkflowRepository;
+use GingerCore\Repository\Resource;
 /**
  * WorkflowService
  * 
