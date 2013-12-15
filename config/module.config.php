@@ -9,12 +9,8 @@
 return array(
     'service_manager' => array(
         'factories' => array(
-            'workflow_config_repositoy' => 'WfConfigBackend\Model\Workflow\Service\WorkflowRepositoryFactory',
-            'workflow_config_facade' => function($sm) {
-                $wfFacade = new \WfConfigBackend\Facade\WorkflowFacade();
-                $wfFacade->setWorkflowRepository($sm->get('workflow_config_repositoy'));
-                return $wfFacade;
-            }
+            'workflow_config_repositoy' => 'GingerWfConfigBackend\Model\Workflow\Service\WorkflowRepositoryFactory',
+            'workflow_config_facade' => 'GingerWfConfigBackend\Facade\Service\WorkflowFacadeFactory'
         )
     )
 );
