@@ -1,6 +1,6 @@
 {
     "name": "gingerwfms/wf-configurator-backend",
-    "type": "ginger-backend-module",
+    "type": "ginger-backend-plugin",
     "description": "The official Workflow Configurator Backend for the Ginger WfMS",
     "license": "BSD-3-Clause",    
     "homepage": "http://www.codeliner.ws/",
