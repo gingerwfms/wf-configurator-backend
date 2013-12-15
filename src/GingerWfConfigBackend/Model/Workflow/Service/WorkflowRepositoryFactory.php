@@ -10,7 +10,7 @@ namespace GingerWfConfigBackend\Model\Workflow\Service;
 
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
-use WfConfigBackend\Model\Workflow\WorkflowRepository;
+use GingerWfConfigBackend\Model\Workflow\WorkflowRepository;
 /**
  *  WorkflowRepositoryFactory
  * 
